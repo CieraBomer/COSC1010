@@ -5,6 +5,8 @@
 # COSC 1010
 # Varibles and asking how much budget.
 totalExpense = 0.0
+expense = 0
+difference = 0
 budget = float(input('Enter your budget for the month: $'))
 # Loop for the expenses
 while True:

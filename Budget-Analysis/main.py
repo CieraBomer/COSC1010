@@ -3,10 +3,9 @@
 # 02-16-2025
 # Budget Analysis Programming Project
 # COSC 1010
-#
-# Ask for monthly budget and total expense to 0
-budget = float(input('Enter your budget for the month: $'))
+# Varibles and asking how much budget.
 totalExpense = 0.0
+budget = float(input('Enter your budget for the month: $'))
 # Loop for the expenses
 while True:
     expense = float(input('Enter the expense (or type -1 to finish): $'))
